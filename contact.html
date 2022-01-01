@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TheBooktown</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/site.css">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <div id="logo2">&copy;The Booktown</div>
+          <a href="Index.html">Home</a>
+          <a href="Categories.html" >Categories</a>
+          <a href="contact.html" class="current">Contact Us</a>
+          <a href="about.html">About</a>
+          <a href="register.html">Accounts</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="images/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            We have the answers you're 
+            looking for.....
+            </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="images/location.png" class="icon" alt="" />
+              <p>92 Cherry Drive Mumbai, India</p>
+            </div>
+            <div class="information">
+              <img src="images/email.png" class="icon" alt="" />
+              <p>thebooktown@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="images/phone.png" class="icon" alt="" />
+              <p>123-456-789</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p id="cont">Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container" >
+              <input type="text" name="name"  style="margin:1rem 0;" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" style="margin:1rem 0;" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" maxlength="10" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/contact.js"></script>
+  </body>
+</html>

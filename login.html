@@ -1,0 +1,35 @@
+<html>
+    <head>
+		<title> The Booktown </title>
+		<link href="styles/site9.css" type="text/css" rel="stylesheet" />
+		<link href="styles/site.css" type="text/css" rel="stylesheet" />
+	    <link rel="stylesheet" href="login.css">
+	</head>
+	<body>
+		<header>
+		  <div class="topnav" id="myTopnav">
+			<div id="logo2">&copy;The Booktown</div>
+			  <a href="Index.html">Home</a>
+			  <a href="Categories.html" >Categories</a>
+			  <a href="contact.html">Contact Us</a>
+			  <a href="about.html">About</a>
+			  <a href="register.html" class="current">Accounts</a>
+			</div>
+		  </div>
+		</header>
+	    <div class="login0">
+	        <p> Enter Your Username And Password Below </p>
+        </div>
+        
+        <form id="form_id" method="post" name="myform">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <a href="signupthanks.html"><input type="button" id="submit" value="LOGIN" onclick="validate()"></a>
+            <a href="forgotpassword.html" class="button111">Forgot Password?</a><br> <br> <br>
+			<a href="#" class="button111">Don't have an account? Sign up</a>
+            <label color="red" size="4em" id="error"></label>
+        </form>
+
+        <script src="scripts/login.js"> </script>
+    </body>
+</html>
